@@ -9,7 +9,7 @@ const ACCEPTED = ["application/pdf", "application/vnd.openxmlformats-officedocum
 const MAX_MB = 25;
 
 interface Props {
-  onFileAccepted: (file: File) => void;
+  onFileAccepted:   (file: File) => void;
   file: File | null;
   uploading: boolean;
 }
