@@ -3,7 +3,7 @@
 
 "use client";
 
-import type { Order, OrderStatus } from "@/lib/types";
+import type    { Order, OrderStatus } from "@/lib/types";
 
 const STEPS: { status: OrderStatus; label: string; desc: string }[] = [
   { status: "pending_payment", label: "Order placed", desc: "Waiting for payment confirmation" },
