@@ -6,7 +6,7 @@ import type { PrintConfig } from "@/lib/types";
 
 // Pricing constants — keep in sync with backend order.service.ts
 const BW_PER_PAGE = 1;    // ₹1 per B&W page
-const COLOR_PER_PAGE = 6; // ₹6 per colour page
+const  COLOR_PER_PAGE = 6; // ₹6 per colour page
 
 interface PriceLine {
   label: string;
