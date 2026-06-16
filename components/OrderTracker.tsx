@@ -5,7 +5,7 @@
 
 import type  { Order, OrderStatus } from "@/lib/types";
 
-const    STEPS: { status: OrderStatus; label: string; desc: string }[] = [
+const          STEPS: { status: OrderStatus; label: string; desc: string }[] = [
   { status: "pending_payment", label: "Order placed", desc: "Waiting for payment confirmation" },
   { status: "paid",           label: "Payment confirmed", desc: "Your payment was received" },
   { status: "printing",       label: "Printing",   desc: "Your document is printing now" },
