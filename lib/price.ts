@@ -2,7 +2,7 @@
 // Price calculation logic — single source of truth for frontend estimates.
 // Backend recalculates independently; this is for live UI display only.
 
-import   type { PrintConfig } from "@/lib/types";
+import      type { PrintConfig } from "@/lib/types";
 
 // Pricing constants — keep in sync with backend order.service.ts
 const BW_PER_PAGE = 1;    // ₹1 per B&W page
