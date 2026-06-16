@@ -3,7 +3,7 @@
 
 "use client";
 
-import   { useRef, useState, DragEvent, ChangeEvent } from "react";
+import    { useRef, useState, DragEvent, ChangeEvent } from "react";
 
 const ACCEPTED = ["application/pdf", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "image/jpeg", "image/png"];
 const MAX_MB = 25;
